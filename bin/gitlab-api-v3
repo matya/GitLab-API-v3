@@ -6,7 +6,7 @@ use GitLab::API::v3::Constants qw( :all );
 
 use Log::Any qw( $log );
 use Log::Any::Adapter;
-use Log::Any::Adapter::ScreenColoredLevel;
+use Log::Any::Adapter::Screen;
 use Try::Tiny;
 use Data::Serializer;
 
